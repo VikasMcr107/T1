@@ -1,0 +1,34 @@
+Detailed Explanation of Commands Executed:
+
+1. git init
+   - Initializes a new empty Git repository in the current directory (D:/Devops).
+   - A hidden `.git` folder is created which stores all repository data.
+
+2. git add v1
+   - Attempts to add a file named `v1` to the staging area.
+   - Since no file named `v1` exists, Git returned the error: "pathspec 'v1' did not match any files".
+
+3. git add .
+   - Adds all files in the current directory (in this case, `v1.txt`) to the staging area.
+
+4. git branch -M main
+   - Renames the current branch to `main`. 
+   - `-M` forces the rename even if the branch already exists.
+
+5. git commit -m "first commit vikas"
+   - Commits the staged file(s) to the local repository.
+   - The commit message is "first commit vikas".
+   - In this case, `v1.txt` was committed.
+
+6. git remote add origin https://github.com/VikasMcr107/T1.git
+   - Adds a new remote repository with the name `origin`.
+   - This points the local repository to the GitHub repository at the given URL.
+
+7. git push -u origin main
+   - Pushes the local `main` branch to the remote repository `origin`.
+   - The `-u` option sets the upstream branch, so in the future you can just use `git push` or `git pull` without specifying the remote and branch.
+   - The push uploaded the commit with `v1.txt` to GitHub.
+
+Final Outcome:
+- A new repository was initialized locally in D:/Devops.
+- A file named `v1.txt` was staged, committed, and pushed to the remote GitHub repository `T1.git` under the `main` branch.
