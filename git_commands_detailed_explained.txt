@@ -30,12 +30,15 @@ Detailed Explanation of Commands Executed:
    - The `-u` option sets the upstream branch, so in the future you can just use `git push` or `git pull` without specifying the remote and branch.
    - The push uploaded the commit with `v1.txt` to GitHub.
 
+<<<<<<< HEAD
 8. git ignore 
    - crrate a file with .gitignore extension name and  add the extension, file and folder name in it 
 
 9 . git restore 
    - restore the code written earlier with {-> git restore , git restore --staged}
 
+=======
+>>>>>>> parent of f367b2f (ignore details added)
 Final Outcome:
 - A new repository was initialized locally in D:/Devops.
 - A file named `v1.txt` was staged, committed, and pushed to the remote GitHub repository `T1.git` under the `main` branch.
