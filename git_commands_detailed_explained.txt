@@ -33,6 +33,9 @@ Detailed Explanation of Commands Executed:
 8. git ignore 
    - crrate a file with .gitignore extension name and  add the extension, file and folder name in it 
 
+9 . git restore 
+   - restore the code written earlier with {-> git restore , git restore --staged}
+
 Final Outcome:
 - A new repository was initialized locally in D:/Devops.
 - A file named `v1.txt` was staged, committed, and pushed to the remote GitHub repository `T1.git` under the `main` branch.
